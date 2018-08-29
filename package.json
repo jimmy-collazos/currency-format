@@ -2,7 +2,7 @@
   "name": "currency-format",
   "version": "1.0.0",
   "description": "Standard format (ISO_4217) of currencies",
-  "main": "currency.js",
+  "main": "currency-format.js",
   "scripts": {
     "test": "node currency-format.test.js"
   },
