@@ -1,0 +1,17 @@
+{
+  "name": "currency-format",
+  "version": "1.0.0",
+  "description": "Standart format (ISO_4217) of currencies",
+  "main": "currency.js",
+  "scripts": {
+    "test": "node currency-format.test.js"
+  },
+  "keywords": [
+    "currency",
+    "currency-format",
+    "ISO_4217",
+    "amount"
+  ],
+  "author": "Jimmy Collazos <jimmy.collazos@gmail.com>",
+  "license": "MIT"
+}
