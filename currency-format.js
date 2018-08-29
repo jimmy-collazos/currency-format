@@ -135,7 +135,5 @@ const CurrencyFormats = [
 ]
 const INDEX = CurrencyFormats.reduce((acc, a, i) => Object.assign(acc, {[tl(a[0])] : i, [tl(a[1])] : i, [tl(a[3])] : i}), {})
 
-console.log(CurrencyFormats.map(k => k[1]).join(' *'))
-
 // CurrencyFormat: String -> Object
 module.exports = compose((k) => (k in INDEX) ? merge(ATTRS, CurrencyFormats[INDEX[k]]) : undefined, tl, toString)
