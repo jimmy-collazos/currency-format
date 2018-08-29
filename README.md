@@ -1,6 +1,6 @@
 # Currency Format
 
-Get format (ISO_4217) of currency.
+Standard format (ISO_4217) of currencies.
 
 Use Code, Symbol and formal Name of currency to get format:
 ```javascript
@@ -10,9 +10,9 @@ const currencySymbol = '€'
 const currencyCode = 'EUR'
 const currencyName = 'Euro'
 
-Console.assert(CurrencyFormat(currencySymbol) === CurrencyFormat(currencyCode))
-Console.assert(CurrencyFormat(currencySymbol) === CurrencyFormat(currencyName))
-Console.log(CurrencyFormat(currencySymbol))
+console.assert(CurrencyFormat(currencySymbol) === CurrencyFormat(currencyCode))
+console.assert(CurrencyFormat(currencySymbol) === CurrencyFormat(currencyName))
+console.log(CurrencyFormat(currencySymbol))
 ```
 
 ### Properties:
