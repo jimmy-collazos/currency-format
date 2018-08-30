@@ -2,6 +2,8 @@
   "name": "currency-format",
   "version": "1.0.0",
   "description": "Standard format (ISO_4217) of currencies",
+  "author": "Jimmy collazos <jimmy.collazos@gmail.com> (https://github.com/jimmy-collazos)",
+  "homepage": "https://github.com/jimmy-collazos/currency-format#readme",
   "main": "currency-format.js",
   "scripts": {
     "test": "node currency-format.test.js"
@@ -12,6 +14,12 @@
     "ISO_4217",
     "amount"
   ],
-  "author": "Jimmy Collazos <jimmy.collazos@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jimmy-collazos/currency-format.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jimmy-collazos/currency-format/issues"
+  },
   "license": "MIT"
 }
